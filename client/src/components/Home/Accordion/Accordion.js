@@ -17,7 +17,7 @@ export default function Accordion() {
         },
         {
             "title": "Who can join SESE?",
-            "description": "The tuition fee per semester is ₹52,000."
+            "description": "The tuition fee per semester is ₹1,00,000."
         },
         {
             "title": "What kinds of projects does SESE work on?",
