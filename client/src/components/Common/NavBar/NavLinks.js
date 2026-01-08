@@ -54,13 +54,13 @@ function NavLinks() {
     //   title: "Administration",
     //   path: "/administration",
     // },
-    {
+   /* {
       authDependent: true,
       title: "LogIn",
       path: "/login",
       Alttitle: "Dashboard",
       Altpath: "/admin/dashboard",
-    },
+    },*/
   ];
 
   return (

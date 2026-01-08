@@ -29,8 +29,9 @@ export default function page() {
       <AboutCard />
       <EventCardSection />
       <HighlightsSection />
-      <DepartmentsSection />
+      
       <Accordion />
     </div>
   )
 }
+// <DepartmentsSection /> removed

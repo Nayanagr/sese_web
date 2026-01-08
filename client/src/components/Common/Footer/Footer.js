@@ -18,40 +18,9 @@ export default function Footer() {
           {/* Footer Links  */}
           {/* Departments */}
           <AnimatedElement className=" flex-grow flex flex-wrap mb-10 text-left order-first">
-            <div className="lg:w-2/5 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">Labs</h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <Link href="/academics/departments/ece" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Electronics & Communication</Link>
-                </li>
-                <li>
-                  <Link href="/academics/departments/cse" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Computer Science</Link>
-                </li>
-                <li>
-                  <Link href="/academics/departments/csbs" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Computer Science & Business Systems</Link>
-                </li>
-                <li>
-                  <Link href="/academics/departments/ee" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Electrical Engineering</Link>
-                </li>
-                <li>
-                  <Link href="/academics/departments/eee" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Electrical & Electronics</Link>
-                </li>
-                <li>
-                  <Link href="/academics/departments/me" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Mechanical Engineering</Link>
-                </li>
-              </nav>
-            </div>
-
+            
             {/* Downloads */}
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3"> Syllabus</h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a target='_blank' href='https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ese.pdf' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Syllabus</a>
-                </li>
-              
-              </nav>
-            </div>
+            
             {/* Admission Enquiry
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">Admission Enquiry</h2>
@@ -138,3 +107,40 @@ export default function Footer() {
     </div>
   )
 }
+// removed Labs from Footer
+ /* <div className="lg:w-2/5 md:w-1/2 w-full px-4">
+              <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">Labs</h2>
+              <nav className="list-none mb-10">
+                <li>
+                  <Link href="/academics/departments/ece" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Electronics & Communication</Link>
+                </li>
+                <li>
+                  <Link href="/academics/departments/cse" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Computer Science</Link>
+                </li>
+                <li>
+                  <Link href="/academics/departments/csbs" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Computer Science & Business Systems</Link>
+                </li>
+                <li>
+                  <Link href="/academics/departments/ee" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Electrical Engineering</Link>
+                </li>
+                <li>
+                  <Link href="/academics/departments/eee" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Electrical & Electronics</Link>
+                </li>
+                <li>
+                  <Link href="/academics/departments/me" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Mechanical Engineering</Link>
+                </li>
+              </nav>
+            </div>
+*/
+
+ // removed syllabus from the footer 
+ /* <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3"> Syllabus</h2>
+              <nav className="list-none mb-10">
+                <li>
+                  <a target='_blank' href='https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ese.pdf' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Syllabus</a>
+                </li>
+              
+              </nav>
+            </div>
+*/
