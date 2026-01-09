@@ -20,14 +20,16 @@ function NavLinks() {
       title: "Contact",
       path: "/contact",
     },
-    {
+   /* {
       title: "Events",
       path: "/events",
     },
+    */
     {
       title: "Highlights",
       path: "/highlights",
     },
+   /* 
     {
       isDropdown: true,
       title: "Academics",
@@ -46,6 +48,7 @@ function NavLinks() {
         },
       ]
     },
+    */
     {
       title: "Alumni",
       path: "/alumni",

@@ -59,9 +59,9 @@ export default function Footer() {
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">Address</h2>
 
-              <p className="text-white hover:text-gray-300 cursor-pointer">shop no. 4,</p>
+              <p className="text-white hover:text-gray-300 cursor-pointer">Near Upper Ground </p>
               <p className="text-white hover:text-gray-300 cursor-pointer">IIT ISM Rd,</p>
-              <p className="text-white hover:text-gray-300 cursor-pointer">IIT (ISM, Sardar Patel Nagar</p>
+              <p className="text-white hover:text-gray-300 cursor-pointer">IIT (ISM), Sardar Patel Nagar</p>
               <p className="text-white hover:text-gray-300 cursor-pointer">Kalyanpur, Dhanbad</p>
               <p className="text-white hover:text-gray-300 cursor-pointer">sese@iitism.ac.in</p>
               <h4 className="text-white hover:text-gray-300 cursor-pointer">+91 1234567890</h4>
@@ -73,7 +73,7 @@ export default function Footer() {
         <div>
           <div>
             <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-              <p className="text-gray-300 text-sm text-center sm:text-left">© 2024 SESE —
+              <p className="text-gray-300 text-sm text-center sm:text-left">© 2026 SESE —
                 <a rel="noopener noreferrer" className="text-gray-300 ml-1" target="_blank">@SESE</a>
               </p>
               <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
