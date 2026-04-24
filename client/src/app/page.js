@@ -27,11 +27,9 @@ export default function page() {
       <CarouselCompo />
       <NoticeLine />
       <AboutCard />
-      <EventCardSection />
       <HighlightsSection />
-      
       <Accordion />
     </div>
   )
 }
-// <DepartmentsSection /> removed
+// <DepartmentsSection />  &  <EventCardSection /> removed

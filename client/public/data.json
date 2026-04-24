@@ -118,28 +118,22 @@
     ],
     "HighlightsData": [
         {
-            "Title": "Alumni Workshop: Connecting Classrooms & Careers",
-            "Description": "The Society of Environmental Science and Engineering (SESE) recently hosted distinguished alumni Diptyajit Bhakta (IIM Trichy) and Shubham Aggarwal (Re Sustainability Limited) for an exclusive career session. Our guests shared their academic journeys, compared MS vs. MBA pathways, and provided students with professional insights to bridge the gap between the classroom and the global industry.",
+           "Title": "Mission Y: Land Acquisition for Rivers - National Conference 2026",
+            "Description": "Mission Y is India's first national conference dedicated to establishing a scientific and policy-driven framework for land acquisition to restore small watersheds and rejuvenate rivers. The conference brings together researchers, planners, administrators, and environmental professionals to advance sustainable river management, watershed protection, and climate-resilient land-use strategies.",
             "PageLink": "/",
-            "BannerPic": "/images/collegepic(14).jpg"
+            "BannerPic": "/images/collegepic(17).png"
         },
         {
-            "Title": "Gamesmeet at the Academy of Technology",
-            "Description": "Gamesmeet at the Academy of Technology is an annual gathering focused on gaming and e-sports. It features competitive gaming tournaments, casual gaming sessions, and interactive workshops. Participants can compete in popular games, learn about game development, and connect with fellow gaming enthusiasts. The event aims to promote the gaming culture within the academy, encouraging both fun and educational experiences in the world of video games.",
+            "Title": "Enviro Samagam: Alumni Meet of Environmental Science and Engineering",
+            "Description": "Enviro Samagam is the official alumni meet of the Department of Environmental Science and Engineering, IIT (ISM) Dhanbad. The event connects past and present environmental professionals to foster collaboration, mentorship, and knowledge exchange while celebrating the department's academic legacy and its role in advancing sustainable development.",
             "PageLink": "/",
-            "BannerPic": "/images/collegepic(2).jpg"
+            "BannerPic": "/images/collegepic(15).png"
         },
         {
-            "Title": "The 'Women in Space Engineering' event at the Academy of Technology",
-            "Description": "The 'Women in Space Engineering' event at the Academy of Technology is a prestigious gathering that highlights the contributions of women in the field of space engineering. Esteemed IIT professors and renowned female scientists from ISRO come together to share their experiences, insights, and advancements in space technology. The event includes inspiring talks, panel discussions, and networking opportunities, aiming to encourage and empower female students to pursue careers in space engineering and related fields.",
+            "Title": "AQMDA 2026: International Workshop on Air Quality Monitoring and Data Analysis",
+            "Description": "AQMDA 2026 is an international workshop focused on advancing air quality monitoring, data analytics, and evidence-based environmental decision-making. Hosted at IIT (ISM) Dhanbad, the workshop brings together scientists, policymakers, and practitioners to enhance technical capacity, improve air pollution assessment, and support cleaner and healthier urban and regional environments.",
             "PageLink": "/",
-            "BannerPic": "/images/collegepic(3).jpg"
-        },
-        {
-            "Title": "TerraNova: An Event Held During Concetto'25",
-            "Description": "TerraNova was a flagship sustainability case competition organised by the Society of Environmental Science and Engineering (SESE) as part of Concetto’25, the annual techno‑management fest of IIT (ISM) Dhanbad. Bringing together multidisciplinary teams from across the country, the event challenged participants to design data‑driven, implementable solutions to real‑world environmental problems in areas such as waste, water and energy management, strengthening SESE’s vision of integrating environmental engineering with practical innovation",
-            "PageLink": "/",
-            "BannerPic": "/images/collegepic(4).jpg"
+            "BannerPic": "/images/collegepic(18).png"
         }
     ],
     "EventsData": [
