@@ -10,7 +10,7 @@ const authenticateAdmin = async (req, res, next) => {
                 .json({ success: false, message: "unauthorized access" });
         }
 
-        const decoded = jwt.decode(accessToken, process.env.ACCESS_TOKEN_KEY);
+        const decoded = jwt.verify(accessToken, process.env.ACCESS_TOKEN_KEY);
 
         const admin = await Admin.findById(decoded.id).select("-password");
         if (!admin) {

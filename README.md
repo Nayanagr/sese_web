@@ -75,13 +75,56 @@ This website showcases:
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your `.env` file:
+To run this project, you will need to add the following environment variables.
 
+### Backend (`server/.env`)
 ```plaintext
 MONGO_URI=<your-mongodb-uri>
-JWT_SECRET=<your-jwt-secret-key>
-NEXT_PUBLIC_API_URL=<backend-api-url>
+ACCESS_TOKEN_KEY=<your-access-token-secret>
+REFRESH_TOKEN_KEY=<your-refresh-token-secret>
+FRONTEND_URI=http://localhost:3000
+PORT=4000
 ```
+
+### Frontend (`client/.env.local`)
+```plaintext
+NEXT_PUBLIC_SERVERURL=http://localhost:4000
+NEXT_PUBLIC_BASEURL=http://localhost:3000
+```
+
+## Installation & Deployment
+
+This project is a monorepo containing both the frontend (`client`) and backend (`server`).
+
+### Local Development
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/anishiit/SESE-website.git
+   cd SESE-website
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   # Install in root (requires npm 7+)
+   npm install
+   ```
+
+3. **Run the projects**:
+   You will need to run both the client and server.
+   - For client: `cd client && npm run dev`
+   - For server: `cd server && npm run dev`
+
+### Deployment on Vercel
+
+To deploy this on Vercel, it is recommended to create **two separate projects**:
+
+1. **Backend**:
+   - Set **Root Directory** to `server`.
+   - Set the environment variables listed above.
+2. **Frontend**:
+   - Set **Root Directory** to `client`.
+   - Set `NEXT_PUBLIC_SERVERURL` to your deployed backend URL.
 
 ## Usage
 

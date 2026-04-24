@@ -7,7 +7,7 @@ const eventRouter = require("./route/event.route.js");
 const noticeRouter = require("./route/notice.route.js");
 const carouselRouter = require("./route/carousel.route.js");
 
-dotenv.config(".env");
+dotenv.config();
 
 const app = express();
 
