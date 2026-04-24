@@ -20,14 +20,16 @@ function NavLinks() {
       title: "Contact",
       path: "/contact",
     },
-    {
+   /* {
       title: "Events",
       path: "/events",
     },
+    */
     {
       title: "Highlights",
       path: "/highlights",
     },
+   /* 
     {
       isDropdown: true,
       title: "Academics",
@@ -46,6 +48,7 @@ function NavLinks() {
         },
       ]
     },
+    */
     {
       title: "Alumni",
       path: "/alumni",
@@ -54,13 +57,13 @@ function NavLinks() {
     //   title: "Administration",
     //   path: "/administration",
     // },
-    {
+   /* {
       authDependent: true,
       title: "LogIn",
       path: "/login",
       Alttitle: "Dashboard",
       Altpath: "/admin/dashboard",
-    },
+    },*/
   ];
 
   return (

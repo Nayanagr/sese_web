@@ -22,7 +22,7 @@ export default function Navbar() {
             <div  className="flex items-center">
              <img src="/logo.jpeg" className="h-6 md:h-8 lg:h-10 px-2 " alt="SESE Logo" />
               <AnimatedElement className="font-bold  font-serif text-xs sm:text-lg text-blue-900 ">
-              Society of Environmental Science and Engineers
+              Society of Environmental Science and Engineering
                 <div className="text-[8px] sm:text-xs text-right ">
                   ...Shaping a Sustainable Future
                 </div>
